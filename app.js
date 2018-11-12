@@ -218,7 +218,7 @@ const UICtrl = (function() {
       li.id = `item-${item.id}`;
       // Add HTML
       li.innerHTML = `<strong>${item.name}: </strong>
-        <em>${item.calories} Calories</em>
+        <em>${item.calories} Kalorien</em>
         <a href="#" class="secondary-content">
             <i class="edit-item fa fa-pencil-alt"></i>
         </a>`;
@@ -240,7 +240,7 @@ const UICtrl = (function() {
           document.querySelector(`#${itemID}`).innerHTML = `<strong>${
             item.name
           }: </strong>
-          <em>${item.calories} Calories</em>
+          <em>${item.calories} Kalorien</em>
           <a href="#" class="secondary-content">
               <i class="edit-item fa fa-pencil-alt"></i>
           </a>`;
